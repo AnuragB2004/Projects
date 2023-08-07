@@ -46,9 +46,9 @@ void Draw()
                 cout << "#";
 
             if (i == y && j == x)
-                cout << "\x1B[32mO\x1B[0m"; // Green snake head
+                cout << "\x1B[32mO\x1B[0m";
             else if (i == fruitY && j == fruitX)
-                cout << "\x1B[31mF\x1B[0m"; // Red fruit
+                cout << "\x1B[31mF\x1B[0m";
             else
             {
                 bool printTail = false;
@@ -56,7 +56,7 @@ void Draw()
                 {
                     if (tailX[k] == j && tailY[k] == i)
                     {
-                        cout << "\x1B[36mo\x1B[0m"; // Cyan snake body
+                        cout << "\x1B[36mo\x1B[0m";
                         printTail = true;
                     }
                 }
@@ -94,7 +94,7 @@ void Input()
         case 's':
             dir = DOWN;
             break;
-        case 27: // 27 is the ASCII code for the "Esc" key
+        case 27:
             gameOver = true;
             break;
         }
@@ -172,7 +172,7 @@ int main()
         Draw();
         Input();
         Logic();
-        Sleep(100); // Delay in milliseconds
+        Sleep(100);
     }
     return 0;
 }
