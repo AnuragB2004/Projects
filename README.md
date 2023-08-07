@@ -1,4 +1,4 @@
-# Welcome to the C++ Snake Game! This is a simple implementation of the classic Snake game using C++. It's a fun project to learn and practice C++ programming, game development concepts, and algorithms.
+# Welcome to Reptilian Run! This is a simple implementation of the classic Snake game using C++. It's a fun project to learn and practice C++ programming, game development concepts, and algorithms.
 # How to Play
 ### The goal of the game is to control the snake using W,A,S,D keys and eat the food that appears on the screen. Each time the snake eats food, it grows longer. Be careful not to run into the walls or yourself, as that will end the game!
 
